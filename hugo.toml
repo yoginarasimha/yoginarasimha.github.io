@@ -1,0 +1,8 @@
+baseURL = 'https://yoginarasimha.github.io/'
+languageCode = 'de-ch'
+theme = 'anatole'
+
+[params]
+title = 'Yogi Narasimha'
+author = 'Yogi Narasimha'
+description = 'Vedisches Wissen vertiefen'
