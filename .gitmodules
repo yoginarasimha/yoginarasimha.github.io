@@ -1,3 +1,10 @@
 [submodule "themes/anatole"]
 	path = themes/anatole
 	url = https://github.com/lxndrblz/anatole.git
+[submodule "themes/hugo_theme_windy"]
+	path = themes/hugo_theme_windy
+	url = https://github.com/zEttOn86/hugo_theme_windy.git
+[submodule "themes/hermit-v2"]
+	path = themes/hermit-v2
+	url = https://github.com/1bl4z3r/hermit-V2
+	branch = main
