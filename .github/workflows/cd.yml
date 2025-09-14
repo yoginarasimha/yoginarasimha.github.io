@@ -31,6 +31,7 @@ jobs:
         run: |
           curl -L https://github.com/sass/dart-sass/releases/download/1.63.4/dart-sass-1.63.4-linux-x64.tar.gz | tar xz
           sudo mv dart-sass/sass /usr/local/bin/sass
+          sudo chmod 755 /usr/local/bin/sass
 
       - name: Install Hugo CLI
         run: |
