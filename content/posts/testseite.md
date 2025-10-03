@@ -4,5 +4,5 @@ draft = false
 title = 'Testseite'
 +++
 Test
-
-{{< embed-pdf url="/docs/sarasvatiprarthana.pdf" width="80%" height="500px" >}}
+{{< figure src="/images/gaṇapati_mantra.png" caption="Bildunterschrift" >}}
+[PDF öffnen](/docs/sarasvatiprarthana.pdf)
