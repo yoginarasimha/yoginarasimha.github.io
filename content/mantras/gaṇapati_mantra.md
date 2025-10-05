@@ -5,6 +5,5 @@ draft = false
 +++
 
 
-{{< soundcloud  >}}
 [PDF öffnen](/docs/gaṇapati_mantra.pdf)
 {{< figure src=/images/gaṇapati_mantra.png >}}

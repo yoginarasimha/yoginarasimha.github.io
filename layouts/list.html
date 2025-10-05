@@ -1,0 +1,24 @@
+{{ define "main" }}
+
+<main>
+  <header>
+    <h1>{{ .Title }}</h1>
+  </header>
+
+  <section class="homepage-content">
+    {{ .Content }}
+  </section>
+
+  <section class="homepage-lists">
+    <!-- Beispiel: Alle Tag-Seiten anzeigen -->
+    {{ $tags := where .Site.RegularPages "Params.tags" "intersect" (slice) }}
+    {{ range $tags }}
+      <div><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
+    {{ end }}
+
+    <!-- Oder andere Liste wie z.B. die letzten Blogposts -->
+  </section>
+</main>
+
+{{ end }}
+

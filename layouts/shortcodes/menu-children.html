@@ -1,0 +1,11 @@
+{{ $mantras := .Site.GetPage "section" "mantras" }}
+{{ if $mantras }}
+<b>Mantras</b>
+<br>
+  {{ range $mantras.Pages }}
+<a href="{{ .RelPermalink }}">{{ .Title }}</a><br>
+  {{ end }}
+{{ else }}
+<p>Keine Mantras gefunden.</p>
+{{ end }}
+
