@@ -1,8 +1,10 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-draft: true
-comments: false
+draft: false
+toc: true
 images:
+tags: 
+  - Mantra
 ---
 

@@ -2,26 +2,7 @@ baseURL = "https://yoginarasimha.github.io"
 defaultContentLanguage = "ch"
 defaultContentLanguageInSubdir = true
 enableInlineShortcodes = true
-theme = "hermit-v2"
-#enableRobotsTXT = true ## set to true to enable inbuilt robots.txt
-
-#[languages]
-#  [languages.en]
-#    title = 'CHANGE ME'
-#    [languages.en.params]
-#      homeSubtitle = "CHANGE ME"
-#    weight = 1
-#  [languages.fr]
-#    title = 'CHANGE ME(FR)'
-#    [languages.fr.params]
-#      homeSubtitle = "CHANGE ME"
-#    weight = 2
-#  [languages.it]
-#    title = 'CHANGE ME(IT)'
-#    [languages.it.params]
-#      homeSubtitle = "CHANGE ME"
-#    weight = 3
- 
+theme = "lugo"
 languageCode = "de-ch"
 
 title = "Yogi Narasimha"
@@ -77,11 +58,11 @@ tag = "tags"
 [params]
 description = "Vedisches Wissen vertiefen"
   # images = [""]
-themeColor = "#494f5c"
+themeColor = "#1E1E2E"
 accentColor = "#018472"
 
-homeSubtitle = "CHANGE ME HOME SUBTITLE"
-footerCopyright = "CHANGE ME FOOTER COPYRIGHT"
+#homeSubtitle = "Vedisches Wissen"
+footerCopyright = "Veda Wissen"
   # footerHideThemeName = false
   # bgImg = ""
   # gitUrl = "https://github.com/1bl4z3r/hermit-V2/tree/staging"
@@ -120,10 +101,10 @@ shareSocial = true
 
 [params.dateform]
 CopyrightDate = "2006"
-LongDate = "Jan 2, 2006"
-ShortDate = "Jan 2"
-NumDateShort = "01-02-2006"
-NumDateLong = "01-02-2006 15:04 -0700"
+LongDate = "2 Jan, 2006"
+ShortDate = "2 Jan"
+NumDateShort = "02.01.2006"
+NumDateLong = "02.01.2006"
   
 [[params.socialLinks]]
 name = "github"
@@ -132,8 +113,8 @@ url = "https://github.com/1bl4z3r/hermit-V2/tree/staging"
 [menu]
 
   [[menu.main]]
-    name = "Posts"
-    url = "posts/"
+    name = "Mantras"
+    url = "mantras/"
     weight = 10
 
   [[menu.main]]

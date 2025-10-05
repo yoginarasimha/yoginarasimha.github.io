@@ -8,3 +8,6 @@
 	path = themes/hermit-v2
 	url = https://github.com/1bl4z3r/hermit-V2
 	branch = main
+[submodule "themes/lugo"]
+	path = themes/lugo
+	url = https://github.com/LukeSmithxyz/lugo.git
